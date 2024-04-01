@@ -1,0 +1,6 @@
+dash==2.14.2
+numpy
+pandas
+scikit_learn
+plotly
+gunicorn
