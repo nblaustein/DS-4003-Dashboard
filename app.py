@@ -117,7 +117,7 @@ app.layout = html.Div([
         ),
         html.Div([
             # Data Table creation 
-            Dash.dash_table.DataTable(
+            dash.dash_table.DataTable(
                 id='data-table',
                 columns=[{"name": i, "id": i} for i in sorted(df.columns)],
                 data=df.to_dict('records'),  # Populate table with DataFrame
