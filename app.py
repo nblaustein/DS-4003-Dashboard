@@ -89,7 +89,7 @@ app.layout = html.Div([
                  className="six columns"
             ),
          html.Div(
-            dcc.Graph(id='histogram-with-dropdown', figure=fig3),
+            dcc.Graph(id='histogram-with-dropdown'),
             className="six columns"
         ),
     # Radio button to select the pie chart 
