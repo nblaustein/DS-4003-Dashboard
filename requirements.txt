@@ -4,4 +4,4 @@ pandas
 scikit_learn
 plotly
 gunicorn
-dash-table
+dash_table
