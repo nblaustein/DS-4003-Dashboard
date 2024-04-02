@@ -4,5 +4,5 @@ pandas
 scikit_learn
 plotly
 gunicorn
-dash-table
+dash_table
 dash_html_components 
